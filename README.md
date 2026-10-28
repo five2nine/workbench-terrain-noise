@@ -1,6 +1,8 @@
-# terrain-noise-workbench-2026
+# workbench-terrain-noise
 
-`terrain-noise-workbench-2026`은 Perlin, OpenSimplex, fBm 계열 노이즈를 CPU와 GPU에서 비교하며 지형처럼 다뤄 보는 Python 실험 저장소다. 단일 렌더링 앱이 아니라 heightfield, 정적 terrain export, 구면 terrain, Marching Squares/Cubes, Transform Feedback를 한 폴더 안에서 확인하는 작업대에 가깝다.
+현재 작업 폴더는 `G:\dev\workbench-terrain-noise`이며 원격 저장소는 [five2nine/workbench-terrain-noise](https://github.com/five2nine/workbench-terrain-noise)다. 이전 위치와 검증 결과는 [이동 기록](docs/project-relocation-2026-10-28.md)에 남겼다.
+
+`workbench-terrain-noise`은 Perlin, OpenSimplex, fBm 계열 노이즈를 CPU와 GPU에서 비교하며 지형처럼 다뤄 보는 Python 실험 저장소다. 단일 렌더링 앱이 아니라 heightfield, 정적 terrain export, 구면 terrain, Marching Squares/Cubes, Transform Feedback를 한 폴더 안에서 확인하는 작업대에 가깝다.
 
 ## 대표 스크린샷
 
@@ -10,13 +12,13 @@
 
 ![GPU terrain export 뷰어](docs/assets/terrain-noise-workbench-imgui-sphere-viewer.png)
 
-이 저장소의 전신 이름은 `perlin-in-hand`였지만, 현재 내용은 Perlin 하나보다 넓다. 그래서 프로젝트 이름을 `terrain-noise-workbench-2026`으로 정리한다.
+이 저장소의 전신 이름은 `perlin-in-hand`였지만, 현재 내용은 Perlin 하나보다 넓다. 그래서 프로젝트 이름을 `workbench-terrain-noise`으로 정리한다.
 
 ## 현재 정리 상태
 
 | 항목 | 기준 |
 | --- | --- |
-| 프로젝트 이름 | `terrain-noise-workbench-2026` |
+| 프로젝트 이름 | `workbench-terrain-noise` |
 | 기본 브랜치 | `main` |
 | 기본 Python | `3.12.12` |
 | 패키지 관리 | `uv` |
